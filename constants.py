@@ -15,7 +15,7 @@ Send any text which you would like to translate for English.
 /help - Show this help message
 /language - Set your main language
 
-If you have questions about this bot or bots' development__ -  Feel free to put your question in @TDICSupport
+If you have questions about this bot or bots' development__ -  Feel free to put your question in @tgbotschat
 
 Enjoy! ☺"""
 
@@ -23,8 +23,8 @@ start_message_reply_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "donate",
-                url="https://www.paypal.com/paypalme/itayki",
+                "donate Us",
+                url="https://t.me/Royalbotz/3",
             )
         ],
         [
@@ -36,16 +36,16 @@ start_message_reply_markup = InlineKeyboardMarkup(
         [
             InlineKeyboardButton("🔍 Inline here", switch_inline_query_current_chat=" "),
             InlineKeyboardButton(
-                "📄 Source code", url="https://github.com/mrcentimetre/gpytranslator-bot"
+                "Website ♦️", url="https://tgbots.co"
             ),
         ],
         [
-            InlineKeyboardButton("🆘 Help", callback_data="help"),
-            InlineKeyboardButton("Credits 💚", callback_data=b"Credits"),
+            InlineKeyboardButton("📜 𝙷𝚎𝚕𝚙", callback_data="help"),
+            InlineKeyboardButton("𝙲𝚛𝚎𝚍𝚒𝚝𝚜 🔐", callback_data=b"Credits"),
         ],
         [
-            InlineKeyboardButton("📣 Channel", url="https://t.me/TDICProjects"),
-            InlineKeyboardButton("Group 👥", url="https://t.me/TDICSupport"),
+            InlineKeyboardButton(" Channel", url="https://t.me/Royalbotz"),
+            InlineKeyboardButton("Group 👥", url="https://t.me/TgBotsChat"),
         ],
     ]
 )
@@ -58,21 +58,21 @@ help_markup = InlineKeyboardMarkup(
 
 error_message_markup = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton("🗑 Delete this message", callback_data="closethismsg")],
+        [InlineKeyboardButton("🗑 𝚍𝚎𝚕𝚎𝚝𝚎 𝚝𝚑𝚒𝚜 𝚖𝚎𝚜𝚜𝚊𝚐𝚎", callback_data="closethismsg")],
     ]
 )
 
 
-credits = """Development 🧑‍💻
- • @MrCentimetre
- • @itayki
- • @rojserbest
+credits = """Development ⚙️
+ ♦️ @Royalbotz 𝚍𝚎𝚟𝚜
+ 
+ 
 
 Inspiration 👨🏻‍🏫
- • @DavideGalilei"""
+ • 𝒓𝒐𝒚𝒂𝒍𝒃𝒐𝒕𝒛"""
 
 help_text = """
-**GpyTranslate Bot**
+**Translate Bot**
 
 GpyTranslate is a word 'G+Py+Translate' which means 'Google Python Translate'. A bot to help you translate text (with emojis) to few Languages from any other language in world.
 
@@ -96,16 +96,16 @@ Just send copied text or forward message with other language to GpyTranslator Bo
 __If you do not specify any language code, the given text will be translated to English.__
 
 ---
-Find a problem? Send to @MrCentimetre
+Find a problem? Send to @tgbotschat                             
 
-coded by @MrCentimetreLK and @itayki by using @DavideGalilei's Library with 💚
+Telegram Addvertisement = @Eearn_from_adsbot
 """
 
 donate_text = """
-It's just a command \ud83d\ude09 But you can contact me - @MrCentimetre
+🔖 \ud83d\ude09  - @Rbpmbot
 
 For donations for server maintenance:
-https://www.paypal.com/paypalme/itayki
+https://t.me/Royalbotz/3
 """
 
 language_text = """
